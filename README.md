@@ -4,7 +4,7 @@ index.html
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>MAX GSM UNLOCKER</title>
+<title>MAX GSM UNLOCKER - Déblocage & Réparation à Abidjan</title>
 
 <style>
 body {
