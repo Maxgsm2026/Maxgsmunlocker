@@ -13,26 +13,32 @@ body {
     color: white;
 }
 
+/* HEADER */
 header {
     background: #020617;
     padding: 15px;
     text-align: center;
-    font-size: 22px;
+    font-size: 24px;
     color: #38bdf8;
     font-weight: bold;
 }
 
+/* HERO */
 .hero {
     text-align: center;
     padding: 80px 20px;
 }
 
 .hero h1 {
-    font-size: 42px;
+    font-size: 40px;
+}
+
+.hero p {
+    color: #cbd5f5;
 }
 
 .btn {
-    margin-top: 20px;
+    margin: 10px;
     display: inline-block;
     padding: 15px 25px;
     background: #38bdf8;
@@ -42,6 +48,7 @@ header {
     font-weight: bold;
 }
 
+/* SERVICES */
 .services {
     padding: 50px 20px;
 }
@@ -60,26 +67,30 @@ header {
 .card {
     background: #1e293b;
     border-radius: 15px;
-    overflow: hidden;
+    padding: 20px;
     transition: 0.3s;
-}
-
-.card img {
-    width: 100%;
-    height: 160px;
-    object-fit: cover;
-}
-
-.card p {
-    padding: 15px;
 }
 
 .card:hover {
     transform: scale(1.05);
 }
 
+/* AVIS */
+.reviews {
+    padding: 50px 20px;
+    background: #020617;
+}
+
+.review {
+    background: #1e293b;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+/* MAP */
 .map {
-    margin-top: 40px;
+    padding: 40px 20px;
 }
 
 iframe {
@@ -89,8 +100,8 @@ iframe {
     border: none;
 }
 
+/* FOOTER */
 footer {
-    background: #020617;
     text-align: center;
     padding: 20px;
 }
@@ -103,7 +114,6 @@ footer {
     background: #25D366;
     padding: 15px;
     border-radius: 50%;
-    font-size: 20px;
     color: white;
     text-decoration: none;
 }
@@ -117,52 +127,41 @@ MAX GSM UNLOCKER
 </header>
 
 <section class="hero">
-    <h1>Réparation & Déblocage Professionnel</h1>
-    <p>Rapide • Fiable • Disponible à Abidjan</p>
+<h1>Déblocage & Réparation de Téléphones</h1>
+<p>Service rapide, fiable et professionnel à Abidjan</p>
 
-    <a class="btn" href="https://wa.me/2250779100634">
-        💬 WhatsApp
-    </a>
+<a class="btn" href="https://wa.me/2250779100634">💬 WhatsApp</a>
+<a class="btn" href="tel:0779100634">📞 Appeler</a>
 </section>
 
 <section class="services">
 <div class="container">
-
 <h2>Nos Services</h2>
 
 <div class="grid">
-
-<div class="card">
-<img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9">
-<p>📱 Déblocage & Reprogrammation de téléphones</p>
-</div>
-
-<div class="card">
-<img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8">
-<p>💻 Installation Windows & logiciels</p>
-</div>
-
-<div class="card">
-<img src="https://images.unsplash.com/photo-1585076641399-5c06d1b3365f">
-<p>🛡️ Nettoyage de virus & optimisation</p>
-</div>
-
-<div class="card">
-<img src="https://images.unsplash.com/photo-1518770660439-4636190af475">
-<p>🔧 Réparation & changement de pièces</p>
+<div class="card">📱 Déblocage & Reprogrammation</div>
+<div class="card">💻 Installation Windows & logiciels</div>
+<div class="card">🛡️ Nettoyage de virus</div>
+<div class="card">🔧 Réparation ordinateur</div>
 </div>
 
 </div>
+</section>
 
-<!-- MAP -->
-<div class="map">
-<h2>Notre localisation</h2>
+<section class="reviews">
+<h2 style="text-align:center;">Avis clients</h2>
+
+<div class="review">⭐️⭐️⭐️⭐️⭐️ Service rapide et sérieux !</div>
+<div class="review">⭐️⭐️⭐️⭐️⭐️ Téléphone débloqué en quelques minutes</div>
+<div class="review">⭐️⭐️⭐️⭐️⭐️ Très professionnel, je recommande</div>
+
+</section>
+
+<section class="map">
+<h2 style="text-align:center;">Localisation</h2>
 
 <iframe src="https://maps.google.com/maps?q=Abidjan&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
 
-</div>
-
-</div>
 </section>
 
 <footer>
@@ -170,9 +169,7 @@ MAX GSM UNLOCKER
 Abidjan, Côte d’Ivoire
 </footer>
 
-<a class="whatsapp" href="https://wa.me/2250779100634">
-💬
-</a>
+<a class="whatsapp" href="https://wa.me/2250779100634">💬</a>
 
 </body>
 </html>
